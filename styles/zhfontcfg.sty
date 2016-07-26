@@ -1,0 +1,28 @@
+% xetex/xelatex 字体设定宏包
+
+\ProvidesPackage{zhfontcfg}
+
+\usepackage{fontspec,xunicode,xltxtra}  % for XeTeX
+\usepackage[BoldFont,SlantFont,CJKnumber,CJKchecksingle]{xeCJK}  % \CJKnumber{12345}: 一万二千三百四十五
+
+\defaultfontfeatures{Mapping=tex-text} %如果没有它，会有一些 tex 特殊字符无法正常使用，比如连字符。
+
+% 中文断行
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+%将系统字体名映射为逻辑字体名称，主要是为了维护的方便
+\newcommand\fontnamehei{SimSun}
+\newcommand\fontnamesong{SimSun}
+%\newcommand\fontnamekai{楷体_GB2312}
+%\newcommand\fontnamekai{simkai}
+%设置文档正文字体为宋体
+
+\setCJKmainfont[BoldFont=\fontnamehei]{\fontnamesong}
+%\setmainfont[BoldFont=]{}
+%\setsansfont[BoldFont=\fontnamehei]{\fontnamekai}
+
+
+%黑体
+\newfontinstance\HEI{\fontnamehei}
+\newcommand{\hei}[1]{{\HEI #1}}

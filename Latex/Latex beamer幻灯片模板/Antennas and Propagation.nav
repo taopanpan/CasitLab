@@ -1,0 +1,220 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/4}{}{0}}
+\headcommand {\beamer@framepages {2}{4}}
+\headcommand {\slideentry {0}{0}{3}{5/5}{}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\sectionentry {1}{Introduction 引言}{6}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{5}}
+\headcommand {\beamer@subsectionpages {1}{5}}
+\headcommand {\slideentry {1}{0}{4}{6/6}{}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{7}{History 发展历史}}\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\slideentry {1}{1}{1}{7/7}{History 发展历史}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{1}{2}{8/8}{History 发展历史}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{1}{3}{9/10}{History 发展历史}{0}}
+\headcommand {\beamer@framepages {9}{10}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{11}{Dimensions and Units 量纲和单位}}\headcommand {\beamer@subsectionpages {7}{10}}
+\headcommand {\slideentry {1}{2}{1}{11/13}{Dimensions and Units 量纲和单位}{0}}
+\headcommand {\beamer@framepages {11}{13}}
+\headcommand {\slideentry {1}{2}{2}{14/16}{Dimensions and Units 量纲和单位}{0}}
+\headcommand {\beamer@framepages {14}{16}}
+\headcommand {\slideentry {1}{2}{3}{17/18}{Dimensions and Units 量纲和单位}{0}}
+\headcommand {\beamer@framepages {17}{18}}
+\headcommand {\slideentry {1}{2}{4}{19/20}{Dimensions and Units 量纲和单位}{0}}
+\headcommand {\beamer@framepages {19}{20}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{21}{Symbols and Notes 符号和记号}}\headcommand {\beamer@subsectionpages {11}{20}}
+\headcommand {\slideentry {1}{3}{1}{21/21}{Symbols and Notes 符号和记号}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {1}{3}{2}{22/23}{Symbols and Notes 符号和记号}{0}}
+\headcommand {\beamer@framepages {22}{23}}
+\headcommand {\slideentry {1}{3}{3}{24/25}{Symbols and Notes 符号和记号}{0}}
+\headcommand {\beamer@framepages {24}{25}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{26}{Electromagnetic Spectrum 电磁频谱}}\headcommand {\beamer@subsectionpages {21}{25}}
+\headcommand {\slideentry {1}{4}{1}{26/26}{Electromagnetic Spectrum 电磁频谱}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {1}{4}{2}{27/27}{Electromagnetic Spectrum 电磁频谱}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {1}{4}{3}{28/28}{Electromagnetic Spectrum 电磁频谱}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {1}{4}{4}{29/29}{Electromagnetic Spectrum 电磁频谱}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\sectionentry {2}{Antenna Basic 天线基础}{30}{Antenna Basic}{0}}
+\headcommand {\beamer@sectionpages {6}{29}}
+\headcommand {\beamer@subsectionpages {26}{29}}
+\headcommand {\slideentry {2}{0}{5}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{31}{Definition of Antennas 天线的定义}}\headcommand {\beamer@subsectionpages {30}{30}}
+\headcommand {\slideentry {2}{1}{1}{31/31}{Definition of Antennas 天线的定义}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {2}{1}{2}{32/32}{Definition of Antennas 天线的定义}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {2}{1}{3}{33/33}{Definition of Antennas 天线的定义}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {2}{1}{4}{34/35}{Definition of Antennas 天线的定义}{0}}
+\headcommand {\beamer@framepages {34}{35}}
+\headcommand {\slideentry {2}{1}{5}{36/36}{Definition of Antennas 天线的定义}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {2}{1}{6}{37/39}{Definition of Antennas 天线的定义}{0}}
+\headcommand {\beamer@framepages {37}{39}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{40}{Patterns 波瓣图}}\headcommand {\beamer@subsectionpages {31}{39}}
+\headcommand {\slideentry {2}{2}{1}{40/40}{Patterns 波瓣图}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {2}{2}{2}{41/41}{Patterns 波瓣图}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{42}{Beam Area 波束范围}}\headcommand {\beamer@subsectionpages {40}{41}}
+\headcommand {\slideentry {2}{3}{1}{42/42}{Beam Area 波束范围}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {2}{3}{2}{43/43}{Beam Area 波束范围}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{44}{Directivity and Gain 定向性和增益}}\headcommand {\beamer@subsectionpages {42}{43}}
+\headcommand {\slideentry {2}{4}{1}{44/44}{Directivity and Gain 定向性和增益}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {2}{4}{2}{45/45}{Directivity and Gain 定向性和增益}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{46}{Antenna Apertures 天线口径}}\headcommand {\beamer@subsectionpages {44}{45}}
+\headcommand {\slideentry {2}{5}{1}{46/46}{Antenna Apertures 天线口径}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {2}{5}{2}{47/47}{Antenna Apertures 天线口径}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{48}{Radio Communication Link 无线电通信线路}}\headcommand {\beamer@subsectionpages {46}{47}}
+\headcommand {\slideentry {2}{6}{1}{48/48}{Radio Communication Link 无线电通信线路}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\beamer@subsectionentry {0}{2}{7}{49}{Fields From Oscillation Dipole 振荡偶极子产生的场}}\headcommand {\beamer@subsectionpages {48}{48}}
+\headcommand {\slideentry {2}{7}{1}{49/49}{Fields From Oscillation Dipole 振荡偶极子产生的场}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@subsectionentry {0}{2}{8}{50}{Antenna Field Zones 无线的场区}}\headcommand {\beamer@subsectionpages {49}{49}}
+\headcommand {\slideentry {2}{8}{1}{50/50}{Antenna Field Zones 无线的场区}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\beamer@subsectionentry {0}{2}{9}{51}{Shape-Impedance Considerations 形状-阻抗的讨论}}\headcommand {\beamer@subsectionpages {50}{50}}
+\headcommand {\slideentry {2}{9}{1}{51/51}{Shape-Impedance Considerations 形状-阻抗的讨论}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\beamer@subsectionentry {0}{2}{10}{52}{Polarization 极化}}\headcommand {\beamer@subsectionpages {51}{51}}
+\headcommand {\slideentry {2}{10}{1}{52/52}{Polarization 极化}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\slideentry {2}{10}{2}{53/53}{Polarization 极化}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {2}{10}{3}{54/54}{Polarization 极化}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\sectionentry {3}{The Antenna Family 天线家族}{55}{The Antenna Family}{0}}
+\headcommand {\beamer@sectionpages {30}{54}}
+\headcommand {\beamer@subsectionpages {52}{54}}
+\headcommand {\slideentry {3}{0}{4}{55/55}{}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{56}{Loops, Dipole and Slots 环形、偶极子和缝隙天线}}\headcommand {\beamer@subsectionpages {55}{55}}
+\headcommand {\slideentry {3}{1}{1}{56/56}{Loops, Dipole and Slots 环形、偶极子和缝隙天线}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{57}{Opened-Out Coaxial-Line Antennas 张开的同轴线天线}}\headcommand {\beamer@subsectionpages {56}{56}}
+\headcommand {\slideentry {3}{2}{1}{57/57}{Opened-Out Coaxial-Line Antennas 张开的同轴线天线}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{58}{Opened-Out Twin-Line Antennas 张开的双导线天线}}\headcommand {\beamer@subsectionpages {57}{57}}
+\headcommand {\slideentry {3}{3}{1}{58/58}{Opened-Out Twin-Line Antennas 张开的双导线天线}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{59}{Opened-Out Waveguide Antennas 张开的波导天线}}\headcommand {\beamer@subsectionpages {58}{58}}
+\headcommand {\slideentry {3}{4}{1}{59/59}{Opened-Out Waveguide Antennas 张开的波导天线}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{60}{Flat-Sheet Reflector Antennas 平板反射器天线}}\headcommand {\beamer@subsectionpages {59}{59}}
+\headcommand {\slideentry {3}{5}{1}{60/60}{Flat-Sheet Reflector Antennas 平板反射器天线}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\beamer@subsectionentry {0}{3}{6}{61}{Radio Communication Link 无线电通信线路}}\headcommand {\beamer@subsectionpages {60}{60}}
+\headcommand {\slideentry {3}{6}{1}{61/61}{Radio Communication Link 无线电通信线路}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\beamer@subsectionentry {0}{3}{7}{62}{Fields From Oscillation Dipole 振荡偶极子产生的场}}\headcommand {\beamer@subsectionpages {61}{61}}
+\headcommand {\slideentry {3}{7}{1}{62/62}{Fields From Oscillation Dipole 振荡偶极子产生的场}{0}}
+\headcommand {\beamer@framepages {62}{62}}
+\headcommand {\beamer@subsectionentry {0}{3}{8}{63}{Antenna Field Zones 无线的场区}}\headcommand {\beamer@subsectionpages {62}{62}}
+\headcommand {\slideentry {3}{8}{1}{63/63}{Antenna Field Zones 无线的场区}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\beamer@subsectionentry {0}{3}{9}{64}{Shape-Impedance Considerations 形状-阻抗的讨论}}\headcommand {\beamer@subsectionpages {63}{63}}
+\headcommand {\slideentry {3}{9}{1}{64/64}{Shape-Impedance Considerations 形状-阻抗的讨论}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\sectionentry {4}{Point Sources 点源}{65}{Point Sources}{0}}
+\headcommand {\beamer@sectionpages {55}{64}}
+\headcommand {\beamer@subsectionpages {64}{64}}
+\headcommand {\slideentry {4}{0}{2}{65/65}{}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{66}{Point Source Defined 点源定义}}\headcommand {\beamer@subsectionpages {65}{65}}
+\headcommand {\slideentry {4}{1}{1}{66/66}{Point Source Defined 点源定义}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{67}{Power Patterns 功率波瓣图}}\headcommand {\beamer@subsectionpages {66}{66}}
+\headcommand {\slideentry {4}{2}{1}{67/67}{Power Patterns 功率波瓣图}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{68}{Power Theorem 功率定理}}\headcommand {\beamer@subsectionpages {67}{67}}
+\headcommand {\slideentry {4}{3}{1}{68/68}{Power Theorem 功率定理}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{69}{Radiation Intensity 辐射强度}}\headcommand {\beamer@subsectionpages {68}{68}}
+\headcommand {\slideentry {4}{4}{1}{69/69}{Radiation Intensity 辐射强度}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\beamer@subsectionentry {0}{4}{5}{70}{Examples of Power Patterns 功率波瓣图举例}}\headcommand {\beamer@subsectionpages {69}{69}}
+\headcommand {\slideentry {4}{5}{1}{70/70}{Examples of Power Patterns 功率波瓣图举例}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\beamer@subsectionentry {0}{4}{6}{71}{Field Patterns 场波瓣图}}\headcommand {\beamer@subsectionpages {70}{70}}
+\headcommand {\slideentry {4}{6}{1}{71/71}{Field Patterns 场波瓣图}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\beamer@subsectionentry {0}{4}{7}{72}{Phase Patterns 相位}}\headcommand {\beamer@subsectionpages {71}{71}}
+\headcommand {\slideentry {4}{7}{1}{72/72}{Phase Patterns 相位}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\sectionentry {5}{Array of Point Sources 点源阵}{73}{Array of Point Sources}{0}}
+\headcommand {\beamer@sectionpages {65}{72}}
+\headcommand {\beamer@subsectionpages {72}{72}}
+\headcommand {\slideentry {5}{0}{2}{73/73}{}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{74}{Introduction 引言}}\headcommand {\beamer@subsectionpages {73}{73}}
+\headcommand {\slideentry {5}{1}{1}{74/74}{Introduction 引言}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{75}{Array of Two Isotropic Point Sources 两个各向同性点源阵}}\headcommand {\beamer@subsectionpages {74}{74}}
+\headcommand {\slideentry {5}{2}{1}{75/75}{Array of Two Isotropic Point Sources 两个各向同性点源阵}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{76}{Array of Similar Sources 相似点源阵}}\headcommand {\beamer@subsectionpages {75}{75}}
+\headcommand {\slideentry {5}{3}{1}{76/76}{Array of Similar Sources 相似点源阵}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\slideentry {5}{3}{2}{77/77}{Array of Similar Sources 相似点源阵}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{78}{Array Pattern Synthesis 阵列波瓣图综合}}\headcommand {\beamer@subsectionpages {76}{77}}
+\headcommand {\slideentry {5}{4}{1}{78/78}{Array Pattern Synthesis 阵列波瓣图综合}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\beamer@subsectionentry {0}{5}{5}{79}{Array of Dissimilar Sources 非相似源阵列}}\headcommand {\beamer@subsectionpages {78}{78}}
+\headcommand {\slideentry {5}{5}{1}{79/79}{Array of Dissimilar Sources 非相似源阵列}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\beamer@subsectionentry {0}{5}{6}{80}{Linear Array of n Isotropic Point Sources 各向同性点源线阵}}\headcommand {\beamer@subsectionpages {79}{79}}
+\headcommand {\slideentry {5}{6}{1}{80/80}{Linear Array of n Isotropic Point Sources 各向同性点源线阵}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\beamer@subsectionentry {0}{5}{7}{81}{Null Direction for Arrays 阵列零方向}}\headcommand {\beamer@subsectionpages {80}{80}}
+\headcommand {\slideentry {5}{7}{1}{81/81}{Null Direction for Arrays 阵列零方向}{0}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\sectionentry {6}{Radio Wave Propagation 电波传播}{82}{Radio Wave Propagation}{0}}
+\headcommand {\beamer@sectionpages {73}{81}}
+\headcommand {\beamer@subsectionpages {81}{81}}
+\headcommand {\slideentry {6}{0}{2}{82/82}{}{0}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{83}{Basics 基础知识}}\headcommand {\beamer@subsectionpages {82}{82}}
+\headcommand {\slideentry {6}{1}{1}{83/84}{Basics 基础知识}{0}}
+\headcommand {\beamer@framepages {83}{84}}
+\headcommand {\slideentry {6}{1}{2}{85/85}{Basics 基础知识}{0}}
+\headcommand {\beamer@framepages {85}{85}}
+\headcommand {\slideentry {6}{1}{3}{86/86}{Basics 基础知识}{0}}
+\headcommand {\beamer@framepages {86}{86}}
+\headcommand {\slideentry {6}{1}{4}{87/88}{Basics 基础知识}{0}}
+\headcommand {\beamer@framepages {87}{88}}
+\headcommand {\slideentry {6}{1}{5}{89/89}{Basics 基础知识}{0}}
+\headcommand {\beamer@framepages {89}{89}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{90}{Surface modes (groundwave) 地面波传播}}\headcommand {\beamer@subsectionpages {83}{89}}
+\headcommand {\slideentry {6}{2}{1}{90/90}{Surface modes (groundwave) 地面波传播}{0}}
+\headcommand {\beamer@framepages {90}{90}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{91}{Ionospheric modes (skywave) 天波传播}}\headcommand {\beamer@subsectionpages {90}{90}}
+\headcommand {\slideentry {6}{3}{1}{91/91}{Ionospheric modes (skywave) 天波传播}{0}}
+\headcommand {\beamer@framepages {91}{91}}
+\headcommand {\beamer@subsectionentry {0}{6}{4}{92}{Direct modes (line-of-sight) 视距传播}}\headcommand {\beamer@subsectionpages {91}{91}}
+\headcommand {\slideentry {6}{4}{1}{92/92}{Direct modes (line-of-sight) 视距传播}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\beamer@subsectionentry {0}{6}{5}{93}{Tropospheric modes 对流层散射传播}}\headcommand {\beamer@subsectionpages {92}{92}}
+\headcommand {\slideentry {6}{5}{1}{93/93}{Tropospheric modes 对流层散射传播}{0}}
+\headcommand {\beamer@framepages {93}{93}}
+\headcommand {\beamer@partpages {1}{93}}
+\headcommand {\beamer@subsectionpages {1}{93}}
+\headcommand {\beamer@sectionpages {1}{93}}
+\headcommand {\beamer@documentpages {93}}
+\headcommand {\def \inserttotalframenumber {77}}

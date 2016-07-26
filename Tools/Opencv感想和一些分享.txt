@@ -1,0 +1,20 @@
+首先还是说说如何学Opencv吧，记得最开始进实验室的时候师兄让看Opencv，当时的学术基础很差，编程能力也很一般，所以学Opencv时感到很无助，像是陷入了一个死循环。想通过算法看代码，发现算法不会；通过代码学算法，又发现自己读代码的能力很弱。后来通过不断的读文章（下面会推荐几篇文章供算法入门）和加强实际的编程能力，其实就是通过Opencv把一些经典的算法实现，来学习。慢慢的就会发现，Opencv和matlab一样好用。不过，Opencv是C/C++混合+模板编程+N多指针，看代码的确很费劲(很多模板类的代码和函数指针的调用函数我到现在还是没怎么看明白)。慢慢来就好，读代码读的多了，会有三个好处：1，更深入和实际的了解算法，深入的了解算法是指通过看代码可以获得算法在实际实践的时候很多细节方面的工作是如何做的，实际是指算法本身在实现的时候会有一些小的窍门，有的算法的实践并不是完完全全将算法翻译过来的，编程实现的时候有实践的一些小窍门。2，Opencv中有很多没有被列到文档里的很实用的代码（很多函数都是_icv开头是，其实很值得一看）。3，发现Opencv的bug，及时的修正保证自己程序的健壮。我的Opencv和刚安装的已经有很大的区别了，就是偶尔发现某处的一些问题，然后修改了，再直接编译。不过我没有注意存记录，弄的现在都不知道什么地方改过。
+
+
+      首先先推荐几篇供大家学习Opencv的文章吧，这些文章是一些经典的算法，它们在Opencv上已经有了具体的实践。这些算法原理比较简单，可以用来作为学习Opencv的算法（通过算法学代码）。这里所说的读代码是要深入函数的内部，了解代码运行的步骤，而不仅仅是会用个别函数：
+1，Adaptive background mixture models for real-time tracking ---> 对应Opencv代码：CvGaussBGModel等。
+2，Computer vision face tracking as a component of a perceptual user interface ---> cvCamShift等。
+3，EM cluster --->CvEM 这个算法很简单，网上到处都有算法介绍。
+4，计算机视觉那本书 ---> cvFindHomography， 根据多对点计算图像的投影变换矩阵。计算机标定和三维重建经常用到。
+5，An Introduction To the Kalman Filter ---> CvKalman等
+6，SIFT ---> Opencv算法版置顶里Rob Hess的SIFT代码，很值得一看，个人感觉非常好的SIFT代码。
+
+      最近有很多同学问我关于那几个东西有没有比较好的文章和代码，我在这里总结一下，以便大家使用(所列文章google下就能得到)：
+1, 背景建模，用opencv的吧，不过代码比较难度，而且效果也一般，练练手吧，从读代码开始，然后尝试用自己写一个。
+文章： Stauffer, Chris and Grimson, W. E. L. "Adaptive background mixture models for real-time tracking", Computer Vision and Pattern Recognition 1999
+2，meanshift做跟踪，opencv有源代码，google下“meanshift tracking”
+3，同上，google之
+4，《计算机视觉--一种现代方法》
+5，Kalman filter：http://en.wikipedia.org/wiki/Kalman_filter 
+matlab toolbox: http://www.cs.ubc.ca/~murphyk/Software/ ... alman.html
+6，opencv论坛视觉算法与理论板块有代码

@@ -1,0 +1,34 @@
+% xetex/xelatex 字体设定宏包
+
+\ProvidesPackage{zhfontcfg}
+
+\usepackage{fontspec,xunicode,xltxtra}  % for XeTeX
+\usepackage[BoldFont,SlantFont,CJKnumber,CJKchecksingle]{xeCJK}  
+
+\defaultfontfeatures{Mapping=tex-text} %如果没有它，会有一些 tex 特殊字符无法正常使用，比如连字符。
+
+% 中文断行
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+\setCJKmainfont[BoldFont={Adobe Heiti Std}, ItalicFont={Adobe Kaiti Std}]{Adobe Song Std}
+
+\setCJKfamilyfont{song}{Adobe Song Std}
+\setCJKfamilyfont{hei}{Adobe Heiti Std}
+\setCJKfamilyfont{kai}{Adobe Kaiti Std}
+
+%\setCJKmainfont[BoldFont={SimHei}, ItalicFont={楷体_GB2312}]{SimSun}
+
+%\setCJKfamilyfont{song}{SimSun}
+%\setCJKfamilyfont{hei}{SimHei}
+%\setCJKfamilyfont{kai}{楷体_GB2312} 
+
+%楷体
+\newcommand{\kai}{\CJKfamily{kai}} 
+\def\kaishu{\kai}
+%黑体
+\newcommand{\hei}{\CJKfamily{hei}} 
+\def\heiti{\hei}
+%宋体
+\newcommand{\song}{\CJKfamily{song}} 
+\def\songti{\song}

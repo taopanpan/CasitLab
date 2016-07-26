@@ -1,0 +1,139 @@
+%\usepackage[width=2cm,dark,tab]{beamerthemesidebar}
+%\usepackage{colortbl} % 彩色表格
+%\usepackage[table]{xcolor}
+%\usepackage{booktabs} % 可以使用三线表
+%\usepackage{multirow} % 复杂表格，使用multirow必须加载该package
+%\usepackage{dcolumn}
+\usepackage{graphicx,subfigure,boxedminipage}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+% or whatever
+\usepackage{CJK}
+\usepackage[latin1]{inputenc}
+% or whatever
+\usepackage{alltt}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{times}
+\usepackage{multimedia}
+\usepackage{color}% [usenames]
+\usepackage{hyperref}
+%\usepackage[T1]{fontenc}
+\graphicspath {{figure/}}%图片所在的目录
+\usepackage{multicol}    %同时使用单列和多列，如下
+%%%\begin{multicols}{2}
+%%%\end{multicols}
+\usepackage{setspace} % 调整间距
+%\begin{spacing}{1.5}
+%\tableofcontents \listoffigures \listoftables
+%\end{spacing}
+
+\setlength{\columnsep}{-0.05cm} %双栏之间的间距
+%\setlength{\parskip}{-0.1\baselineskip} % 设置段间距
+
+
+\mode<presentation> {
+  \usetheme{Antibes}   %[hideothersubsections] beamer 模板的模式
+  % Warsaw or ...,Antibes,PaloAlto,Darmstadt,Frankfurt,Boadilla,Antibes,Luebeck,CambridgeUS,Rochester
+
+%%  With navigation bar: default, boxes, Bergen, Madrid, Pittsburgh, Rochester
+%%  With a treelike navigation bar: Antibes, JuanLesPins, Montpellier.
+%%  With a TOC sidebar: Berkeley, PaloAlto, Goettingen, Marburg, Hannover
+%%  With a mini frame navigation: Berlin, Ilmenau, Dresden, Darmstadt, Frankfurt, Singapore, Szeged
+%%  With section and subsection titles: Copenhagen, Luebeck, Malmoe, Warsaw
+
+
+
+%  \usefonttheme[onlylarge]{structuresmallcapsserif}%
+%  \usefonttheme[onlysmall]{structurebold}%
+%  \usefonttheme{serif} % Times New Rome 字体
+  \usecolortheme{sidebartab}% default
+%% Inner color themes, 其他选择: orchid,albatross,beaver,beetle,default,crane,dolphin,dove,fly,orchid,lily,rose,seagull,seahorse
+%% Inner color themes, 其他选择: sidebartab,whale,wolverine
+
+  \useinnertheme[shadow=true]{rounded} % default,circles,margin,rounded,rectangles
+%%  \useoutertheme{split} % default，infolines，miniframes,shadow,smoothbars,smoothtree,tree,sidebar
+
+%  \useoutertheme[height=0.1\textwidth,width=0.15\textwidth,hideothersubsections]{sidebar}
+  \setbeamercovered{dynamic} % dynamic,transparent,invisible
+  % or whatever (possibly just delete it)
+}
+
+%% beamer中已经定义的颜色：
+%% red,green,blue,cyan,magenty,yellow,black,darkgray,gray,lightgray,orange,violet,purple,brown
+
+%% 自定义颜色：
+%% \xdefinecolor{lanvendar}{rgb}{0.8,0.6,1}
+%% \xdefinecolor{olive}{cmyk}{0.64,0,0.95,0.4}
+%% \colorlet{structure}{blue!60!black}
+ \colorlet{structure}{blue!85!white}      %  自定义颜色,用“structure”表示 60%蓝色+40%黑色的颜色
+
+
+%\setbeamertemplate{background canvas}[vertical shading][bottom=white,top=structure.fg!25] %%背景色, 上25%的蓝, 过渡到下白.
+%\beamertemplateshadingbackground{white}{blue!25} %设置渐变(gradient)背景色,
+%\beamersetaveragebackground{yellow!25} % 设置单一的(solid)背景色
+%\beamertemplategridbackground[0.3cm] % 设置栅格(grid ) 背景
+
+\def\hilite<#1>{\temporal<#1>{\color{blue!80}}{\color{blue!85!white}}{\color{black}}}% magenta
+%% 自定义命令, 源自 beamer_guide. item 逐步显示时, 使将要出现的item、正在显示的item、已经出现的item、 呈现不同颜色.
+
+\hypersetup{pdfpagemode={FullScreen}} % 默认全屏播放
+
+
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+%\logo{\includegraphics[height=0.1\textwidth]{hfut_logo_red.pdf}} % 校徽logo
+
+%\pgfdeclareimage[height=5cm]{logo}{ustc_logo_new.pdf}
+%\logo{\pgfuseimage{logo}}
+
+\setbeamertemplate{navigation symbols}{}   %% 去掉页面下方默认的导航条.
+\setcounter{tocdepth}{2} % 只生成2级目录
+\setcounter{secnumdepth}{2}
+\numberwithin{equation}{section} % 公式按章编号
+%\numberwithin{equation}{subsection} % 公式按节编号
+\numberwithin{figure}{section} % 图片按章编号
+
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm} %  两端对齐
+\raggedright
+
+\setbeamertemplate{caption}[numbered] % 图表编号
+\setbeamerfont{caption}{size=\footnotesize} %  图表标题字体大小设置
+
+%%%%%%%%%%%%%%%%%% 调整第一页标题占位 %%%%%%%%%%%%%%%%%%%%
+ \defbeamertemplate*{frametitle}{smoothbars theme}
+  {%
+    \nointerlineskip%
+    \begin{beamercolorbox}[wd=\paperwidth,leftskip=.3cm,rightskip=.3cm plus1fil,vmode]{frametitle}
+      \vskip.6ex
+      \usebeamerfont*{frametitle}\insertframetitle%
+      \vskip.6ex
+    \end{beamercolorbox}%
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 自定义页脚 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usefoottemplate{\hbox{\tinycolouredline{structure!80!black}{
+\color{white}{ \insertshortauthor} \hfill{\insertshortinstitute }
+\hfill{\insertframenumber\,/ \inserttotalframenumber}
+% \hfill{{\the\year}/{\the\month}/{\the\day}}
+}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 中文字体%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\song}{\CJKfamily{song}}
+%\newcommand{\hei}{\CJKfamily{hei}}
+%\newcommand{\kai}{\CJKfamily{kai}}
+%\newcommand{\fs}{\CJKfamily{fs}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 中文环境 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newtheorem{theo}{{定理}} % \begin{theo}  \end{theo}
+%\newtheorem{prop}{{命题}}
+%\newtheorem{lem}{{引理}}
+%\newtheorem{corol}{{推论}}[theorem]
+%\newtheorem{def}{{定义}}
+%\newtheorem{exam}{{例}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 定理命题编号 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{theorems}[numbered]
+\newtheorem{exam}{Example}[section] % 按章编号

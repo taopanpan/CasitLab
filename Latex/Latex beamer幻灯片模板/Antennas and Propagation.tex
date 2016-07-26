@@ -1,0 +1,153 @@
+\documentclass[table,CJK,mathserif,12pt]{beamer}% notheorems,
+
+
+% $Header: /cvsroot/latex-beamer/latex-beamer/solutions/generic-talks/generic-ornate-15min-45min.en.tex,v 1.4 2004/10/07 20:53:08 tantau Exp $
+
+\include{background/background}
+
+
+
+\title[Antennas and Radio Wave Propagation\quad 天线与电波传播] % (optional, use only with long paper titles)
+{ \textsc{Antennas and Radio Wave Propagation} }
+%\title{Antennas and Radio Wave Propagation}
+
+
+\author[XXX YYY] % (optional, use only with lots of authors)
+{\quad\\  \large  XXX YYY \\ {\scriptsize Email: XXX@YYY.com}}
+
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+\institute[Department of Communication Engineering] % (optional, but mostly needed)
+{Department of Communication Engineering}
+
+%\date {\scriptsize{2008年12月09日}}
+%% 日期自动生成
+\date{\scriptsize{\today} }%{{\the\year}年{\the\month}月{\the\day}日}
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+%\pgfdeclareimage[height=0.5cm]{ustc_logo_new.pdf}{ustc_logo_new.pdf}
+%\logo{\pgfuseimage{ustc_logo_new.pdf}}
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+%\AtBeginSection[] {
+%  \begin{frame}<beamer>
+%    \frametitle{Outline}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+%
+%\AtBeginSubsection[] {
+%  \begin{frame}<beamer>
+%    \frametitle{Outline}
+%    \tableofcontents[currentsection,currentsubsection]
+%  \end{frame}
+%}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command:
+
+%\beamerdefaultoverlayspecification{<+->} % 逐行显示
+
+
+\begin{document}
+\begin{CJK}{GBK}{kai}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame} % 封面
+  \vspace{0.5cm}
+  \titlepage
+  \hypertarget{beginning}{}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Preface}}
+\begin{itemize}
+\item\hilite<1> {\bf Prerequisites 预修课程:}
+    \begin{itemize}
+    \item Electromagnetic Fields and Electromagnetic Waves
+    \item Microwave Technique
+    \end{itemize}\pause
+
+\item\hilite<2> {\bf Textbook 教材:}
+    \begin{itemize}
+    \item Antennas: For All Applications (Third Edition), John D. Kraus and
+    Ronald J. Marhefka, Electronic Industry Press, 2008.
+    \end{itemize}\pause
+
+\item\hilite<3> {\bf Reference Books 参考书:}
+    \begin{itemize}
+    \item Antenna Theory Analysis and Design (3rd.Edition), Constantine
+    A. Balanis, John Wiley and Sons, Inc.
+    \item 《天线与电波传播》，宋铮，张建华，黄冶编著，西安电子科技大学出版社
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+  \frametitle{\textsc{Contents}} \vspace{-0.3cm}
+  \tableofcontents[hidesubsections]
+  % You might wish to add the option[pausesections,subsection]
+\end{frame}
+
+\include{data/ch01}
+\include{data/ch02}
+\include{data/ch03}
+\include{data/ch04}
+\include{data/ch05}
+\include{data/ch06}
+%\include{data/pub}
+%\include{data/ack}
+
+%  换页动态效果:
+%\transblindshorizontal<1> %  水平百叶窗效果
+%\transblindsvertical<2> %  竖直百叶窗效果
+%\transboxin<3> %  从中心到四角
+%\transboxout<4> %  从四角到中心
+%\transdissolve<5> %  溶解效果
+%\transglitter<6> %  闪烁
+%\transsplitverticalin<7> %  竖直撕开(向内)
+%\transsplitverticalout<8> %  竖直撕开(向外)
+%\transsplithorizontalin %  水平撕开(向内)
+%\transsplithorizontalout %  水平撕开(向外)
+%\transwipe<9> %  涂抹
+%\transduration<10>{1} %  渐出
+
+%%%%%% Latex 设置字体 %%%%%%
+
+%显示直立文本：     \textup{文本}
+%意大利斜体：       \textit{美元符文本美元符}
+%slanted斜体：      \textsl{文本}
+%显示小体大写文本： \textsc{文本}
+%中等权重：         \textmd{文本}
+%加粗命令：         \textbf{文本}
+%默认值：           \textnormal{文本}
+
+%Latex 设置字体大小命令由小到大依次为： \tiny \scriptsize
+%\footnotesize \small \normalsize \large \Large \LARGE \huge \Huge
+
+% 超链及按钮
+%\hyperlink{sec:1}{\beamerreturnbutton{back}}
+% \beamerskipbutton, \beamerbutton, \beamergotobutton, 和 \beamerreturnbutton
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 环境 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{definitin} % 可选的还有：theorem, lemma, corollary, proposition, example, proof
+%  定义的例子。
+%\end{definition}
+
+
+
+\end{CJK}
+\end{document}

@@ -1,0 +1,321 @@
+% IPLOUC listings
+
+\ProvidesPackage{iplouclistings}
+
+% packages
+\usepackage{listings} %在矩形框中显示代码 
+\usepackage[framed,numbered,useliterate]{styles/mcode} %显示Matlab代码
+
+% http://stackoverflow.com/questions/2993630/use-latex-listings-to-correctly-detect-and-syntax-highlight-embedded-code-of-a-d
+% settings
+\renewcommand{\lstlistlistingname}{Code Listings}
+\renewcommand{\lstlistingname}{Code Listing}
+\definecolor{gray}{gray}{0.5}
+\definecolor{key}{rgb}{0,0.5,0}
+\lstloadlanguages{Fortran,C++,C,[LaTeX]TeX,Python,bash,R,Perl}
+
+% This gives syntax highlighting in the LaTeX environment
+\lstnewenvironment{python}[1][]{
+  \lstset{
+    language=python,
+    basicstyle=\ttfamily\footnotesize,
+    otherkeywords={1, 2, 3, 4, 5, 6, 7, 8 ,9 , 0, -, =, +, [, ], (, ), \{, \}, :, *, !},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    showstringspaces=false,
+    emph={class, pass, in, for, while, if, is, elif, else, not, and, or,
+    def, print, exec, break, continue, return},
+    emphstyle=\color{black}\bfseries,
+    emph={[2]True, False, None, self},
+    emphstyle=[2]\color{key},
+    emph={[3]from, import, as},
+    emphstyle=[3]\color{blue},
+    upquote=true,
+    morecomment=[s]{"""}{"""},
+    commentstyle=\color{gray}\slshape,
+    rulesepcolor=\color{blue},#1
+  }
+}{}
+
+\lstnewenvironment{bash}{%
+  \lstset{%
+    language=bash,
+    basicstyle=\ttfamily\footnotesize,
+    otherkeywords={=, +, [, ], (, ), \{, \}, *},
+    literate={~}{$\sim$}{1},
+    % bash commands from:
+    %http://www.math.montana.edu/Rweb/Rhelp/00Index.html
+    emph={addgroup,adduser,alias,
+    ant,
+    apropos,apt-get,aptitude,aspell,awk,
+    basename,bash,bc,bg,break,builtin,bzip2,cal,case,cat,cd,cfdisk,chgrp,
+    chkconfig,chmod,chown,chroot,cksum,clear,cmp,comm,command,continue,
+    cp,cron,crontab,csplit,cut,date,dc,dd,ddrescue,declare,df,diff,diff3,
+    dig,dir,dircolors,dirname,dirs,dmesg,du,echo,egrep,eject,enable,env,
+    ethtool,eval,exec,exit,expand,expect,export,expr,false,fdformat,
+    fdisk,fg,fgrep,file,find,fmt,fold,for,format,free,fsck,ftp,function,
+    fuser,gawk,getopts,
+    git,
+    grep,groups,gzip,
+    gunzip,
+    ,hash,head,help,history,hostname,
+    id,if,ifconfig,ifdown,ifup,import,install,
+    java, java6, java_cur
+    join,kill,killall,less,
+    let,ln,local,locate,logname,logout,look,lpc,lpr,lprint,lprintd,
+    lprintq,lprm,ls,lsof,make,man,mkdir,mkfifo,mkisofs,mknod,mmv,more,
+    mount,mtools,mtr,mv,
+    mysql,
+    netstat,nice,nl,nohup,notify-send,
+    noweb,noweave,
+    nslookup,op,
+    open,passwd,paste,pathchk,ping,pkill,popd,pr,printcap,printenv,
+    printf,ps,pushd,pwd,quota,quotacheck,quotactl,ram,rcp,read,
+    readarray,readonly,reboot,remsync,rename,renice,return,rev,rm,rmdir,
+    rsync,scp,screen,sdiff,sed,select,seq,set,sftp,shift,shopt,shutdown,
+    sleep,slocate,sort,source,split,ssh,strace,su,sudo,sum,
+    svn, svn2git,
+    symlink,sync,
+    tail,tar,tee,test,time,times,top,touch,tr,traceroute,trap,true,
+    tsort,tty,type,ulimit,umask,umount,unalias,uname,unexpand,uniq,
+    units,
+    unrar,
+    unset,unshar,until,useradd,usermod,users,uudecode,uuencode,
+    vdir,vi,vmstat,watch,wc,Wget,whereis,which,while,who,whoami,write,
+    zcat},
+    breaklines=true,
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    emphstyle=\color{black}\bfseries,
+    commentstyle=\color{gray}\slshape,
+  }
+}{}
+
+%\lstnewenvironment{latexcode}[1]{\lstset{language=[latex]tex} \lstset{#1}}{}
+
+\lstnewenvironment{Rcode}{
+  \lstset{%
+    language={R},
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{black},         % style for keyword
+    % Function list from:
+    % http://www.math.montana.edu/Rweb/Rhelp/00Index.html
+    emph={abbreviate, abline,
+    abs, acos, acosh, all, all.names,
+    all.vars, anova, anova.glm, anova.lm, any,
+    aperm, append, apply, approx, approxfun,
+    apropos, Arg, args, Arithmetic, array,
+    arrows, as.array, as.call, as.character, as.complex,
+    as.data.frame, as.double, as.expression, as.factor, asin,
+    asinh, as.integer, as.list, as.logical, as.matrix,
+    as.na, as.name, as.null, as.numeric, as.ordered,
+    as.qr, as.real, assign, as.ts, as.vector,
+    atan, atan2, atanh, attach, attr,
+    attributes, autoload, .AutoloadEnv, axis, backsolve,
+    barplot, beta, binomial, box, boxplot,
+    boxplot.stats, break, browser, bw.bcv, bw.sj,
+    bw.ucv, bxp, c, .C, call,
+    cat, cbind, ceiling, character, charmatch,
+    chisq.test, chol, chol2inv, choose, class,
+    class<-, codes, coef, coefficients, coefficients.glm,
+    coefficients.lm, co.intervals, col, colnames, colors,
+    colours, Comparison, complete.cases, complex, Conj,
+    contour, contrasts, contr.helmert, contr.poly, contr.sum,
+    contr.treatment, convolve, cooks.distance, coplot, cor,
+    cos, cosh, count.fields, cov, covratio,
+    crossprod, cummax, cummin, cumprod, cumsum,
+    curve, cut, D, data, data.class,
+    data.entry, dataentry, data.frame, data.matrix, dbeta,
+    dbinom, dcauchy, dchisq, de, debug,
+    delay, demo, de.ncols, density, deparse,
+    de.restore, deriv, deriv.default, deriv.formula, de.setup,
+    detach, deviance, deviance.glm, deviance.lm, device,
+    Devices, dev.off, dexp, df, dfbetas,
+    dffits, df.residual, df.residual.glm, df.residual.lm, dgamma,
+    dgeom, dget, dhyper, diag, diff,
+    digamma, dim, dim<-, dimnames, dimnames<-,
+    dlnorm, dlogis, dnbinom, dnchisq, dnorm,
+    do.call, dotplot, double, dpois, dput,
+    drop, dt, dump, dunif, duplicated,
+    dweibull, dyn.load, edit, effects.glm, effects.lm,
+    eigen, else, emacs, end, environment,
+    environment<-, eval, exists, exp, expression,
+    Extract, factor, family, family.glm, fft,
+    finite, fitted, fitted.values, fitted.values.glm, fitted.values.lm,
+    fivenum, fix, floor, for, formals,
+    format, formatC, format.default, formula.default, formula.formula,
+    formula.terms, .Fortran, frame, frequency, function,
+    Gamma, gamma, gaussian, gc, gcinfo,
+    get, getenv, gl, glm, glm.control,
+    glm.fit, .GlobalEnv, graphics.off, gray, grep,
+    grid, gsub, hat, heat.colors, help,
+    hist, hsv, identify, if, ifelse,
+    Im, image, \%in\%, influence.measures, inherits,
+    integer, interactive, .Internal, inverse.gaussian, invisible,
+    invisible, IQR, is.array, is.atomic, is.call,
+    is.character, is.complex, is.data.frame, is.double, is.environment,
+    is.expression, is.factor, is.function, is.integer, is.language,
+    is.list, is.loaded, is.logical, is.matrix, is.na,
+    is.name, is.null, is.numeric, is.ordered, is.qr,
+    is.real, is.recursive, is.single, is.ts, is.unordered,
+    is.vector, lapply, lbeta, lchoose, legend,
+    length, LETTERS, letters, levels, levels<-,
+    lgamma, .lib.loc, .Library, library, library.dynam,
+    license, lines, lines.default, list, lm,
+    lm.fit, lm.influence, lm.wfit, load, locator,
+    log, log10, log2, Logic, logical,
+    lower.tri, lowess, ls, ls.diag, lsfit,
+    lsf.str, ls.print, ls.str, .Machine, Machine,
+    machine, macintosh, mad, match, match.arg,
+    match.call, matlines, mat.or.vec, matplot, matpoints,
+    matrix, max, mean, median, menu,
+    methods, min, missing, Mod, mode,
+    mode<-, model.frame, model.frame.default, model.matrix, model.matrix.default,
+    month.abb, month.name, mtext, mvfft, NA,
+    na.action, na.action.default, na.fail, names, na.omit,
+    nargs, nchar, NCOL, ncol, next,
+    NextMethod, nextn, nlevels, nlm, [.noquote,
+    noquote, NROW, nrow, NULL, numeric,
+    objects, on.exit, optimize, options, order,
+    ordered, outer, pairs, palette, par,
+    parse, paste, pbeta, pbinom, pcauchy,
+    pchisq, pentagamma, pexp, pf, pgamma,
+    pgeom, phyper, pi, pictex, piechart,
+    plnorm, plogis, plot, plot.default, plot.density,
+    plot.ts, plot.xy, pmatch, pmax, pmin,
+    pnbinom, pnchisq, pnorm, points, points.default,
+    poisson, polygon, polyroot, postscript, ppoints,
+    ppois, pretty, print, print.anova.glm, print.anova.lm,
+    print.data.frame, print.default, print.density, print.formula, print.glm,
+    print.lm, print.noquote, print.plot, print.summary.glm, print.summary.lm,
+    print.terms, print.ts, proc.time, prod, prompt,
+    prompt.default, prop.test, provide, .Provided, ps.options,
+    pt, punif, pweibull, q, qbeta,
+    qbinom, qcauchy, qchisq, qexp, qf,
+    qgamma, qgeom, qhyper, qlnorm, qlogis,
+    qnbinom, qnchisq, qnorm, qpois, qqline,
+    qqnorm, qqplot, qr, qr.coef, qr.fitted,
+    qr.Q, qr.qty, qr.qy, qr.R, qr.resid,
+    qr.solve, qr.X, qt, quantile, quasi,
+    quit, qunif, quote, qweibull, rainbow,
+    .Random.seed, range, rank, rbeta, rbind,
+    rbinom, rcauchy, rchisq, Re, readline,
+    read.table, real, rect, remove, rep,
+    repeat, replace, require, resid, residuals,
+    residuals.glm, residuals.lm, return, rev, rexp,
+    rf, rgamma, rgb, rgeom, rhyper,
+    RLIBS, rlnorm, rlogis, rm, rnbinom,
+    rnchisq, rnorm, round, row, row.names,
+    rownames, rpois, rstudent, rt, runif,
+    rweibull, sample, sapply, save, save.plot,
+    scale, scan, sd, segments, seq,
+    sequence, sign, signif, sin, sinh,
+    sink, solve, solve.qr, sort, source,
+    spline, splinefun, split, sqrt, start,
+    stem, stop, storage.mode, storage.mode<-, str,
+    str.data.frame, str.default, strheight, stripplot, strsplit,
+    structure, strwidth, sub, Subscript, substitute,
+    substr, substring, sum, summary, summary.glm,
+    summary.lm, svd, sweep, switch, symbol.C,
+    symbol.For, symnum, sys.call, sys.calls, sys.frame,
+    sys.frames, sys.function, sys.nframe, sys.on.exit, sys.parent,
+    sys.parents, system, system.date, system.time, t,
+    table, tabulate, tan, tanh, tapply,
+    tempfile, terms, terms.default, terms.formula, terms.terms,
+    terrain.colors, tetragamma, text, time, title,
+    topo.colors, trace, traceback, trigamma, trunc,
+    ts, tsp, t.test, typeof, unclass,
+    undebug, unique, uniroot, unlink, unlist,
+    untrace, update, update.formula, update.glm, update.lm,
+    upper.tri, UseMethod, var, vector, Version,
+    version, vi, warning, weighted.mean, weights.lm,
+    while, window, windows, write, x11,
+    xedit, xemacs, xinch, xor, xy.coords,
+    yinch},                             % define a list of word to emphasis
+    stringstyle=\color{red},
+    emphstyle=\color{black}\bfseries,   % define the way to emphase
+    showspaces=false,                   % show the space in code, or not
+    stringstyle=\ttfamily,              % style of the string (like "hello word")
+    showstringspaces=false,             % show the space in string, on not #1
+    commentstyle=\color{gray}\slshape,
+    tabsize=2,                          % sets default tabsize to 2 spaces
+    breaklines=true,                    % sets automatic line breaking
+    breakatwhitespace=false,            % sets if automatic breaks should only happen at whitespace
+  }
+}{}
+
+\lstnewenvironment{Perl}{
+  \lstset{%
+    language={perl},
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{black},         % style for keyword
+    emph={% From http://www.sdsc.edu/~moreland/courses/IntroPerl/docs/manual/pod/perlfunc.html
+    -X, run, abs, absolute, accept, accept, alarm, schedule, atan2, 
+    arctangent, bind, binds, binmode, prepare, bless, create, caller, 
+    get, chdir, change, chmod, changes, chomp, remove, chop, remove, 
+    chown, change, chr, get, chroot, make, close, close, closedir, close, 
+    connect, connect, continue, optional, cos, cosine, crypt, one-way, 
+    dbmclose, breaks, dbmopen, create, defined, test, delete, deletes, 
+    die, raise, do, turn, dump, create, each, retrieve, endgrent, be, 
+    endhostent, be, endnetent, be, endprotoent, be, endpwent, be, 
+    endservent, be, eof, test, eval, catch, exec, abandon, exists, test, 
+    exit, terminate, exp, raise, fcntl, file, fileno, return, flock, 
+    lock, fork, create, format, declare, formline, internal, getc, get, 
+    getgrent, get, getgrgid, get, getgrnam, get, gethostbyaddr, get, 
+    gethostbyname, get, gethostent, get, getlogin, return, getnetbyaddr, 
+    get, getnetbyname, get, getnetent, get, getpeername, find, getpgrp, 
+    get, getppid, get, getpriority, get, getprotobyname, get, 
+    getprotobynumber, get, getprotoent, get, getpwent, get, getpwnam, 
+    get, getpwuid, get, getservbyname, get, getservbyport, get, 
+    getservent, get, getsockname, retrieve, getsockopt, get, glob, 
+    expand, gmtime, convert, goto, create, grep, locate, hex, convert, 
+    import, patch, int, get, ioctl, system-dependent, join, join, keys, 
+    retrieve, kill, send, last, exit, lc, return, lcfirst, return, 
+    length, return, link, create, listen, register, local, create, 
+    localtime, convert, log, retrieve, lstat, stat, m//, match, map, 
+    apply, mkdir, create, msgctl, SysV, msgget, get, msgrcv, receive, 
+    msgsnd, send, my, declare, next, iterate, no, unimport, oct, convert, 
+    open, open, opendir, open, ord, find, pack, convert, package, 
+    declare, pipe, open, pop, remove, pos, find, print, output, printf, 
+    output, prototype, get, push, append, q/STRING/, singly, qq/STRING/, 
+    doubly, quotemeta, quote, qw/STRING/, quote, qx/STRING/, backquote, 
+    rand, retrieve, read, fixed-length, readdir, get, readlink, 
+    determine, recv, receive, redo, start, ref, find, rename, change, 
+    require, load, reset, clear, return, get, reverse, flip, rewinddir, 
+    reset, rindex, right-to-left, rmdir, remove, s///, replace, scalar, 
+    force, seek, reposition, seekdir, reposition, select, reset, semctl, 
+    SysV, semget, get, semop, SysV, send, send, setgrent, prepare, 
+    sethostent, prepare, setnetent, prepare, setpgrp, set, setpriority, 
+    set, setprotoent, prepare, setpwent, prepare, setservent, prepare, 
+    setsockopt, set, shift, remove, shmctl, SysV, shmget, get, shmread, 
+    read, shmwrite, write, shutdown, close, sin, return, sleep, block, 
+    socket, create, socketpair, create, sort, sort, splice, add, split, 
+    split, sprintf, formatted, sqrt, square, srand, seed, stat, get, 
+    study, optimize, sub, declare, substr, get, symlink, create, syscall, 
+    execute, sysread, fixed-length, system, run, syswrite, fixed-length, 
+    tell, get, telldir, get, tie, bind, time, return, times, return, 
+    tr///, transliterate, truncate, shorten, uc, return, ucfirst, return, 
+    umask, set, undef, remove, unlink, remove, unpack, convert, unshift, 
+    prepend, untie, break, use, load, utime, set, values, return, vec, 
+    test, wait, wait, waitpid, wait, wantarray, get, warn, print, write, 
+    print, y///, transliterate},        % define a list of word to emphasis
+    stringstyle=\color{red},
+    emphstyle=\color{black}\bfseries,   % define the way to emphase
+    showspaces=false,                   % show the space in code, or not
+    stringstyle=\ttfamily,              % style of the string (like "hello word")
+    showstringspaces=false,             % show the space in string, on not #1
+    commentstyle=\color{gray}\slshape,
+    tabsize=2,                          % sets default tabsize to 2 spaces
+    breaklines=true,                    % sets automatic line breaking
+    breakatwhitespace=false,            % sets if automatic breaks should only happen at whitespace
+  }
+}{}
+
+\lstnewenvironment{plaintext}{
+  \lstset{
+    tabsize=2,                          % sets default tabsize to 2 spaces
+    breaklines=true,                    % sets automatic line breaking
+    breakatwhitespace=false,            % sets if automatic breaks should only happen at whitespace
+    basicstyle=\normalfont\ttfamily\footnotesize,
+  }
+}{}

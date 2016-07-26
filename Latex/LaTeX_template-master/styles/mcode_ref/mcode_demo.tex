@@ -1,0 +1,55 @@
+\documentclass{article}
+
+
+% load package with ``framed'' and ``numbered'' option.
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+% something NOT relevant to the usage of the package.
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{18pt}
+\title{\texttt{mcode.sty} Demo}
+\author{Florian Knorn, \texttt{florian@knorn.org}}
+% //////////////////////////////////////////////////
+
+
+\begin{document}
+
+\maketitle
+
+\textbf{NOTE}
+
+All that this package does, is configure the \verb|listings| package for you. If anything is not working the way you want it, refer to the \verb|listings| documentation first and a look at the \verb|mcode.sty| file itself, which is well documented internally.
+
+\textbf{Installation of the package}
+
+As with any other package, just place the \verb|mcode.sty| file in the same folder as your document, or put it somewhere where \LaTeX{} can find it.  That's all!
+
+\medskip
+
+\textbf{Usage --- 3 ways}
+
+1) This inline demo \mcode{for i=1:3, disp('cool'); end;} uses the \verb|\mcode{}| command.
+
+2) The following is a block using the \verb|lstlisting| environment.
+\begin{lstlisting}
+for i = 1:3
+	if i >= 5                    % literate programming replacement
+		disp('cool');           % comment with some §\mcommentfont\LaTeX in it: $\mcommentfont\pi x^2$§
+	end
+	[~,ind] = max(vec);
+	x_last = x(1,end);
+	v(end);
+	really really long really really long really really long really really long really really long line % blaaaaaaaa
+end
+\end{lstlisting}
+Note: Here, the package was loaded with the \verb|framed|, \verb|numbered|, \verb|autolinebreaks| and \verb|useliterate| options.  \textbf{Please see the top of mcode.sty for a detailed explanation of these options.}
+
+
+3) Finally, you can also directly include an external m-file from somewhere on your hard drive (the very code you use in \textsc{Matlab}, if you want) using the \verb|\lstinputlisting{/SOME/PATH/FILENAME.M}| command.  If you only want to include certain lines from that file (for instance to skip a header), you can use \verb|\lstinputlisting[firstline=6, lastline=15]{/SOME/PATH/FILENAME.M}|.
+
+\medskip
+
+
+Florian (\texttt{florian@knorn.org})
+
+\end{document}

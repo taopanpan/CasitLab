@@ -1,0 +1,328 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[Antenna Basic 天线基础]{Antenna Basic} %[误差校正基础]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 章首目录页 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}%<beamer>
+    \frametitle{\textsc{Contents}} \vspace{-0.85cm}\label{sec:2}
+    \begin{multicols}{2}
+    \begin{minipage}[t]{0.55\textwidth}
+    \tableofcontents[currentsection,hideallsubsections]
+    % [currentsection,hideallsubsections][sectionstyle=show/shaded,subsectionstyle=show/shaded/hide]
+    \end{minipage}
+
+    \begin{minipage}[t]{0.55\textwidth}
+    \vspace{0.5cm}
+    \begin{spacing}{0.9} % 调整间距 需要\usepackage{setspace}
+    \begin{itemize}
+        \item\hyperlink{subsec:2-1}{Definition of Antennas}
+        \item\hyperlink{subsec:2-2}{Patterns}
+        \item\hyperlink{subsec:2-3}{Beam Area}
+        \item\hyperlink{subsec:2-4}{Directivity and Gain}
+        \item\hyperlink{subsec:2-5}{Antenna Apertures}
+        \item\hyperlink{subsec:2-6}{Radio Communication Link}
+        \item\hyperlink{subsec:2-7}{Fields From Dipole}
+        \item\hyperlink{subsec:2-8}{Antenna Field Zones}
+        \item\hyperlink{subsec:2-9}{Shape-Impedance Considerations}
+        \item\hyperlink{subsec:2-10}{Polarization}
+    \end{itemize}
+    \end{spacing}
+    \end{minipage}
+    \end{multicols}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Definition of Antennas 天线的定义]{Definition of Antennas}\label{subsec:2-1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{What is Antenna?}} \transblindshorizontal % 水平出现效果
+\begin{multicols}{3}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna1} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna2} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna3} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna4} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna5} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+
+\end{multicols}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{What is Antenna?}}
+\begin{multicols}{3}
+\transblindsvertical %  竖直出现效果
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna6} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna7} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna8} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna9} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna10} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+
+\end{multicols}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{\textsc{What is Antenna?}}
+\begin{multicols}{3}
+\transboxout  %  从四角到中心
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna11} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna12} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=3cm]{ch2/antenna13} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+
+\end{multicols}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}% [shrink]
+\frametitle{\textsc{Definition of Antenna}}%\transwipe % 涂抹效果
+
+\hilite<1>Regardless of antenna type, all involve the same basic
+principle that radiation is produced by accelerated charge.
+不论何种类型，天线都是基于加速电荷产生辐射的共同原理。\pause
+
+\hilite<2>The {\bf basic equation of radiation} may be expressed
+simply as
+\begin{equation}\label{eq:radiation}
+    \dot{I}L = Q\dot{v}
+\end{equation}
+\vspace{-0.1cm} where
+\begin{eqnarray*}
+% \nonumber to remove numbering (before each equation)
+  \dot{I} \!\!&=&\!\! \text{time-changing current}, \rm A/s \\
+  L \!\!&=&\!\! \text{length of current element}, \rm m \\
+  Q \!\!&=&\!\! \text{charge}, \mathrm{C} \\
+  \dot{v} \!\!&=&\!\! \text{time change of velocity}, \rm m/s^2
+\end{eqnarray*}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Definition of Antenna}}\transsplithorizontalout %  水平撕开(向外)
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=11cm]{ch2/antenna_region} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Definition of Antenna}}
+
+\begin{itemize}
+\hilite<1>\item An antenna, also known as an aerial, a transducer
+designed to transmit or receive electromagnetic waves.
+天线是发射或接收电磁波的换能器。(Wikipedia)\pause
+
+\hilite<2>\item An antenna, a means for radiating or receiving radio
+waves. 天线是发射或接收电磁波的方法。(IEEE Std 1974–1983)\pause
+
+\hilite<3>\item An antenna is a transition device, or transducer,
+between a guided wave and a free-space wave, or vice-versa.
+天线是一种导行波与自由空间波之间的转换器或换能器。
+\end{itemize}
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Patterns 波瓣图]{Patterns}\label{subsec:2-2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Patterns}}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Radiation Intensity}}
+
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Beam Area 波束范围]{Beam Area}\label{subsec:2-3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Beam Area}}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Beam Efficiency}}
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Directivity and Gain 定向性和增益]{Directivity and Gain}\label{subsec:2-4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Directivity and Gain}}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Resolution}}
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Antenna Apertures 天线口径]{Antenna Apertures}\label{subsec:2-5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Antenna Apertures}}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Effective Height}}
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Radio Communication Link 无线电通信线路]{Radio Communication Link}\label{subsec:2-6}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Radio Communication Link}} \
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Fields From Oscillation Dipole 振荡偶极子产生的场]{Fields From Dipole}\label{subsec:2-7}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Fields From Oscillation Dipole}}
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Antenna Field Zones 无线的场区]{Antenna Field Zones}\label{subsec:2-8}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Antenna Field Zones}}
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Shape-Impedance Considerations 形状-阻抗的讨论]{Shape-Impedance Considerations}\label{subsec:2-9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Shape-Impedance Considerations}}
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Polarization 极化]{Polarization}\label{subsec:2-10}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Polarization}}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Poynting Vector}}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Poincar\'{e} Sphere}} 
+
+\rightline{\hyperlink{sec:2}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,131 @@
+\begin{thebibliography}{10}
+
+\bibitem{tex}
+Knuth D~E.
+\newblock The {\TeX} Book.
+\newblock 15th ed., Reading, MA: Addison-Wesley Publishing Company, 1989
+\thudot
+
+\bibitem{companion}
+Goosens M, Mittelbach F, Samarin A.
+\newblock The {\LaTeX} Companion.
+\newblock Reading, MA: Addison-Wesley Publishing Company, 1994: 112--125
+\thudot
+
+\bibitem{ColdSources}
+Gr{\"o}ning P, Nilsson L, Ruffieux P, et~al.
+\newblock Encyclopedia of Nanoscience and Nanotechnology, volume~1.
+\newblock American Scientific Publishers, 2004: 547--579
+\thudot
+
+\bibitem{Krasnogor2004e}
+Krasnogor N.
+\newblock Towards robust memetic algorithms.
+\newblock In: Hart W, Krasnogor N, Smith J, (eds.). Proceedings of Recent
+  Advances in Memetic Algorithms. New York: Springer Berlin Heidelberg, 2004:
+  185--207
+\thudot
+
+\bibitem{clzs}
+阎真.
+\newblock 沧浪之水.
+\newblock 人民文学出版社, 2001: 185--207
+\thudot
+
+\bibitem{zjsw}
+班固.
+\newblock 苏武传.
+\newblock 见: 郑在瀛, 汪超宏, 周文复, 编. 传记散文英华.
+  武汉: 湖北人民出版社, 1998: 65--69
+\thudot
+
+\bibitem{ELIDRISSI94}
+{Chafik El Idrissi} M, {Roney} A, {Frigon} C, et~al.
+\newblock Measurements of total kinetic-energy released to the {$N=2$}
+  dissociation limit of {H}$_2$ --- evidence of the dissociation of very high
+  vibrational {R}ydberg states of {H}$_2$ by doubly-excited states.
+\newblock Chemical Physics Letters, 1994, 224(10):260--266
+\thudot
+
+\bibitem{MELLINGER96}
+Mellinger A, Vidal C~R, Jungen C.
+\newblock Laser reduced fluorescence study of the carbon-monoxide nd triplet
+  {R}ydberg series-experimental results and multichannel quantum-defect
+  analysis.
+\newblock J. Chem. Phys., 1996, 104(5):8913--8921
+\thudot
+
+\bibitem{SHELL02}
+Shell M.
+\newblock How to Use the {IEEEtran \LaTeX} Class.
+\newblock Journal of {\LaTeX} Class Files, 2002, 12(4):100--120
+\thudot
+
+\bibitem{zhubajie}
+猪八戒.
+\newblock 论流体食物的持久保存[硕士学位论文].
+\newblock 北京: 广寒宫大学, 2005
+\thudot
+
+\bibitem{metamori2004}
+Jeyakumar A~R.
+\newblock Metamori: A library for Incremental File Checkpointing\thumasterbib.
+\newblock Blacksburg: Virgina Tech, June~21, 2004
+\thudot
+
+\bibitem{shaheshang}
+沙和尚.
+\newblock 论流沙河的综合治理[博士学位论文].
+\newblock 北京: 清华大学, 2005
+\thudot
+
+\bibitem{FistSystem01}
+Zadok E.
+\newblock {FiST: A System for Stackable File System Code Generation}\thuphdbib.
+\newblock USA: Computer Science Department, Columbia University, May, 2001
+\thudot
+
+\bibitem{IEEE-1363}
+{IEEE Std 1363-2000}.
+\newblock {IEEE} Standard Specifications for Public-Key Cryptography.
+\newblock New York: IEEE, 2000
+\thudot
+
+\bibitem{DPMG}
+Kim S, Woo N, Yeom H~Y, et~al.
+\newblock Design and {I}mplementation of {D}ynamic {P}rocess {M}anagement for
+  {G}rid-enabled {MPICH}.
+\newblock Proceedings of the 10th European PVM/MPI Users' Group Conference,
+  Venice, Italy, 2003
+\thudot
+
+\bibitem{kocher99}
+Kocher C, Jaffe J, Jun B.
+\newblock Differential Power Analysis.
+\newblock In: Wiener M, (eds.). Proceedings of Advances in Cryptology
+  ({CRYPTO}~'99), volume 1666 of {\em Lecture Notes in Computer Science}.
+  Springer-Verlag, 1999.
+\newblock  388--397
+\thudot
+
+\bibitem{NPB2}
+Woo A, Bailey D, Yarrow M, et~al.
+\newblock The {NAS} Parallel Benchmarks 2.0.
+\newblock Technical report, The Pennsylvania State University CiteSeer
+  Archives, December~05, 1995.
+\newblock  {\url{http://www.nasa.org/}}
+\thudot
+
+\bibitem{cnarticle}
+贾宝玉, 林黛玉, 薛宝钗, 等.
+\newblock 论刘姥姥食量大如牛之现实意义.
+\newblock 红楼梦杂谈, 1800, 224:260--266
+\thudot
+
+\bibitem{cnproceed}
+王重阳, 黄药师, 欧阳峰, 等.
+\newblock 武林高手从入门到精通.
+\newblock  第~$N$~次华山论剑, 西安, 中国, 2006
+\thudot
+
+\end{thebibliography}

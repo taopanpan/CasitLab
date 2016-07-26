@@ -1,0 +1,50 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{6}{0}{1}
+\beamer@subsectionintoc {1}{1}{History}{7}{0}{1}
+\beamer@subsectionintoc {1}{2}{Dimensions and Units}{11}{0}{1}
+\beamer@subsectionintoc {1}{3}{Symbols and Notes}{21}{0}{1}
+\beamer@subsectionintoc {1}{4}{EM Spectrum}{26}{0}{1}
+\beamer@sectionintoc {2}{Antenna Basic}{30}{0}{2}
+\beamer@subsectionintoc {2}{1}{Definition of Antennas}{31}{0}{2}
+\beamer@subsectionintoc {2}{2}{Patterns}{40}{0}{2}
+\beamer@subsectionintoc {2}{3}{Beam Area}{42}{0}{2}
+\beamer@subsectionintoc {2}{4}{Directivity and Gain}{44}{0}{2}
+\beamer@subsectionintoc {2}{5}{Antenna Apertures}{46}{0}{2}
+\beamer@subsectionintoc {2}{6}{Radio Communication Link}{48}{0}{2}
+\beamer@subsectionintoc {2}{7}{Fields From Dipole}{49}{0}{2}
+\beamer@subsectionintoc {2}{8}{Antenna Field Zones}{50}{0}{2}
+\beamer@subsectionintoc {2}{9}{Shape-Impedance Considerations}{51}{0}{2}
+\beamer@subsectionintoc {2}{10}{Polarization}{52}{0}{2}
+\beamer@sectionintoc {3}{The Antenna Family}{55}{0}{3}
+\beamer@subsectionintoc {3}{1}{Loops, Dipole and Slots}{56}{0}{3}
+\beamer@subsectionintoc {3}{2}{Coaxial-Line Antennas}{57}{0}{3}
+\beamer@subsectionintoc {3}{3}{Twin-Line Antennas}{58}{0}{3}
+\beamer@subsectionintoc {3}{4}{Waveguide Antennas}{59}{0}{3}
+\beamer@subsectionintoc {3}{5}{Flat-Sheet Reflector Antennas}{60}{0}{3}
+\beamer@subsectionintoc {3}{6}{Radio Communication Link}{61}{0}{3}
+\beamer@subsectionintoc {3}{7}{Fields From Dipole}{62}{0}{3}
+\beamer@subsectionintoc {3}{8}{Antenna Field Zones}{63}{0}{3}
+\beamer@subsectionintoc {3}{9}{Shape-Impedance Considerations}{64}{0}{3}
+\beamer@sectionintoc {4}{Point Sources}{65}{0}{4}
+\beamer@subsectionintoc {4}{1}{Point Source Defined}{66}{0}{4}
+\beamer@subsectionintoc {4}{2}{Power Patterns}{67}{0}{4}
+\beamer@subsectionintoc {4}{3}{Power Theorem}{68}{0}{4}
+\beamer@subsectionintoc {4}{4}{Radiation Intensity}{69}{0}{4}
+\beamer@subsectionintoc {4}{5}{Examples of Power Patterns}{70}{0}{4}
+\beamer@subsectionintoc {4}{6}{Field Patterns}{71}{0}{4}
+\beamer@subsectionintoc {4}{7}{Phase Patterns}{72}{0}{4}
+\beamer@sectionintoc {5}{Array of Point Sources}{73}{0}{5}
+\beamer@subsectionintoc {5}{1}{Introduction}{74}{0}{5}
+\beamer@subsectionintoc {5}{2}{Array of Two Isotropic Point Sources}{75}{0}{5}
+\beamer@subsectionintoc {5}{3}{Array of Similar Sources}{76}{0}{5}
+\beamer@subsectionintoc {5}{4}{Array Pattern Synthesis}{78}{0}{5}
+\beamer@subsectionintoc {5}{5}{Array of Dissimilar Sources}{79}{0}{5}
+\beamer@subsectionintoc {5}{6}{Linear Array of n Isotropic Point Sources}{80}{0}{5}
+\beamer@subsectionintoc {5}{7}{Null Direction for Arrays}{81}{0}{5}
+\beamer@sectionintoc {6}{Radio Wave Propagation}{82}{0}{6}
+\beamer@subsectionintoc {6}{1}{Basics}{83}{0}{6}
+\beamer@subsectionintoc {6}{2}{Surface modes}{90}{0}{6}
+\beamer@subsectionintoc {6}{3}{Ionospheric modes}{91}{0}{6}
+\beamer@subsectionintoc {6}{4}{Direct modes}{92}{0}{6}
+\beamer@subsectionintoc {6}{5}{Tropospheric modes}{93}{0}{6}

@@ -1,0 +1,419 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[Introduction 引言]{Introduction}\label{sec:1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 章首目录页 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}%<beamer>
+    \frametitle{\textsc{Contents}} \vspace{-1.05cm}
+    \begin{multicols}{2}
+    %\begin{figure}
+    \begin{minipage}[t]{0.55\textwidth}
+    \tableofcontents[currentsection,hideallsubsections]
+    % [currentsection,hideallsubsections][sectionstyle=show/shaded,subsectionstyle=show/shaded/hide]
+    \end{minipage}
+
+    \begin{minipage}[t]{0.55\textwidth}
+    \vspace{0.44cm}
+    \begin{spacing}{1.2} % 调整间距 需要\usepackage{setspace}
+    \begin{itemize}
+    \item\hyperlink{subsec:1-1}{History}
+    \item\hyperlink{subsec:1-2}{Dimensions and Units}
+    \item\hyperlink{subsec:1-3}{Symbols and Notes}
+    \item\hyperlink{subsec:1-4}{EM Spectrum}
+    \end{itemize}
+    \end{spacing}
+    \end{minipage}
+    %\end{figure}
+    \end{multicols}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[History 发展历史]{History}\label{subsec:1-1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{\textsc{History}}\transsplitverticalin
+
+\begin{itemize}
+\item In 1886, Professor Heinrich Rudolph Hertz
+demonstrated the first wireless electromagnetic system. He was able
+to produce in his laboratory at a wavelength of 4 m a spark in the
+gap of a transmitting $\lambda/2$ dipole which was then detected as
+a spark in the gap of a nearby loop.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[scale=0.4]{ch1/first_radio_link} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{\textsc{History}}  \transsplitverticalout
+
+\begin{itemize}
+    \item In 1901, Guglielmo Marconi performed the first
+    transatlantic transmission from Poldhu in Cornwall, England, to St.
+    John's Newfoundland. This was the dawn of the antenna era.
+    \begin{figure}
+    \begin{center}
+        \includegraphics[scale=0.5]{ch1/antenna_marconi} % 图片名不能以大些字母开头
+    \end{center}
+    \end{figure}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{History}}%\transwipe % 涂抹效果
+
+\begin{itemize}% [<+-| structure@+>]
+\hilite<1>\item In 1940s, antenna technology was primarily centered
+on wire related radiating elements and frequencies up to about UHF.
+World War II launched a new era in antennas (such as waveguide
+apertures, horns, reflectors).\pause
+
+\hilite<2>\item 1960s-1990s, advances made in computer architecture
+and technology have had a major impact on the advance of modern
+antenna technology, numerical methods were introduced that allowed
+previously intractable complex antenna system configurations to be
+analyzed and designed very accurately.
+\end{itemize}
+\rightline{\hyperlink{sec:1}{\beamerreturnbutton{back}} }
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Dimensions and Units 量纲和单位]{Dimensions and Units}\label{subsec:1-2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Dimensions and Units}} %\transwipe % 涂抹效果
+\begin{itemize}
+\hilite<1>\item A dimension defines some physical characteristic.
+There are 7 fundamental dimensions: length, mass, time, electric
+current, temperature, luminous intensity and amount of substance,
+represented as $L,M,T,I,\mathcal{T},\mathcal{I},N$
+量纲定义某些物理特征，基本量纲有7个。\pause
+
+\hilite<2>\item A unit is a standard or reference by which a
+dimension can be expressed numerically.
+单位是使量纲能进行数值表述的一种标准或参照。\pause
+
+\hilite<3>\item In the SI system, there are 7 fundamental units:
+meter, kilogram, second, ampere, kelvin, candela, and mole for the 7
+fundamental dimensions.
+国际单位制中有7个基本单位：米，千克，秒，安培，开尔文，坎德拉，摩尔。
+% 它们是7个基本量纲长度、质量、时间、电流强度、温度、光照强度和数量的基本单位。
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Dimensions and Units}} %\transwipe % 涂抹效果
+\begin{itemize}
+\hilite<1>\item Second(s): duration of 9,192,631,770 periods of
+radiation corresponding to the transition between two hyperfine
+levels of the ground state of cesium-133.
+铯-133基态在两个超精细能级之间月前多对应的辐射周期的9,192,631,770倍\pause
+
+\hilite<2>\item Meter(m): path length traveled by light in vacuum in
+a time $t=1/299,792,458$ second.
+光在真空中传播$t=1/299,792,458$秒所经历的路程长度。\pause
+
+\hilite<3>\item Kilogram(kg): the mass of the international
+prototype kilogram, a cylinder of platinum-iridium alloy kept at
+S\`{e}vres, France.
+等于保存于法国塞夫里斯的铂铱合金柱体国际千克原器的质量。
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Dimensions and Units}} %\transwipe % 涂抹效果
+\begin{itemize}
+\hilite<1>\item Ampere(A): the electric current flowing in each of
+two infinitely long parallel wires in vacuum separated by 1m which
+produces a force of 200 nanonewtons per meter of length
+($200\rm{nNm}^{-1}=2\times10^{-7}\rm{Nm}^{-1}$).
+真空中两根相距1米的无限长平行导线上通过的等量电流，使两根导线之间产生的作用力等于200纳牛顿/米。\pause
+
+\hilite<2>\item Kelvin(K): temperature equal to 1/273.16 of the
+triple point of water. 温度等于水的三相点的1/273.16。
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Dimensions and Units}} %\transwipe % 涂抹效果
+\begin{itemize}
+
+\hilite<1>\item Candela(cd): luminous intensity equal to that of
+1/600,000 $\rm m^2$ of a perfect radiator at the temperature of
+freezing platinum at a pressure of 1 standard atmosphere.
+在标准大气压和铂的凝固温度下，理想辐射体产生于1/600,000平方米的光照度。\pause
+
+\hilite<2>\item Mole(mol): an amount of a substance that contains as
+many elementary entities as there are atoms in 12 grams of pure
+carbon-12 ($\rm{C}^{12}$). This corresponds to a value of
+$6.02214179(30)\times10^{23}$. 12克碳-12所包含的原子数。
+\end{itemize}
+\rightline{\hyperlink{sec:1}{\beamerreturnbutton{back}} }
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Symbols and Notes 符号和记号]{Symbols and Notes}\label{subsec:1-3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Symbols and Notes}}\transwipe % 涂抹效果
+\vspace{-0.5cm}
+
+{\footnotesize
+\begin{table}[!h]
+\rowcolors{1}{blue!20}{blue!10} \arrayrulecolor{blue!5}
+\tabcolsep 4pt % 列间距
+\renewcommand\arraystretch{1.1} % 行间距
+
+\caption{Metric prefix}\label{tab:prefix} \vspace*{-15pt}
+\begin{center}
+    \setlength{\arrayrulewidth}{1.3pt}
+%    \def\temptablewidth{0.95\textwidth}
+%    {\rule{\temptablewidth}{1pt}}
+    \begin{tabular}{c|c|c|c|c}%{\temptablewidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
+        \arrayrulecolor{black}\hline
+        \rowcolor{blue!50} Numerical value & Prefix & Symbol &
+        U.S. Meaning & Chinese Meaning  \\   \hline
+        $10^{18}$ & exa & E & quintillion & 艾 \\
+        $10^{15}$ & peta & P & quadrillion & 拍 \\
+        $10^{12}$ & era & T & trillion & 太 \\
+        $10^{9}$ & giga & G & billion & 吉 \\
+        $10^{6}$ & mega & M & million & 兆 \\
+        $10^{3}$ & kilo & k & thousand & 千 \\
+        $10^{-3}$ & milli & m & thousandth & 毫 \\
+        $10^{-6}$ & micro & $\mu$ & millionth & 微 \\
+        $10^{-9}$ & nano & n & billionth & 纳 \\
+        $10^{-12}$ & pico & p & trillionth & 皮 \\
+        $10^{-15}$ & femto & f & quadrillionth & 飞 \\
+        $10^{-18}$ & atto & a & quintillionth & 阿 \\
+        \hline
+       \end{tabular}
+%       {\rule{\temptablewidth}{1pt}}
+\end{center}
+\end{table}
+}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Symbols and Notes}}%\transwipe % 涂抹效果
+{\small
+%\begin{block}{Example 1-1} % alartbloke
+%\hspace{2em}$\mathbf{D}=\mathbf{\hat{x}}200\rm pCm^{-2}$\\
+%means that the electric flux density $\mathbf{D}$ is a vector in the
+%positive \textit{x} direction with a magnitude of 200 picocoulombs
+%per square meter ($=200\times10^{-10}$ coulombs per square meter).
+%电通量密度（矢量）为沿x方向200皮库仑每平方米。
+%\end{block} \pause
+
+\begin{exam}
+\hspace{2em}$\mathbf{D}=\mathbf{\hat{x}}200\rm pCm^{-2}$\\
+means that the electric flux density $\mathbf{D}$ is a vector in the
+positive \textit{x} direction with a magnitude of 200 picocoulombs
+per square meter ($=200\times10^{-10}$ coulombs per square meter).
+电通量密度（矢量）为沿x方向200皮库仑每平方米。
+\end{exam} \pause
+
+\begin{exam}
+\hspace{2em}$S=4\rm Wm^{-2}Hz^{-1}$\\
+means that the flux density $S$ (a scalar) eqauls 4 watts per square
+meter per hertz. This can also be written as $S=4\rm W/m^2Hz$.
+通量密度（标量）为4瓦每平方米赫兹。
+\end{exam}
+} \rightline{\hyperlink{sec:1}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Dimensional Analysis}} %\transwipe % 涂抹效果
+
+\hilite<1>It is a necessary condition for correctness that every
+equation be balanced dimensionally. Dimensional analysis is also
+useful for determining what the dimensions of a quantity are.
+公式两端的量纲平衡是公式成立的必要条件。\pause
+
+\hilite<2>{\small
+\begin{exam} % alartbloke
+Newton's second law: $\rm{Force=mass\times acceleration}$\\
+Since acceleration has the dimensions of length per time squared
+($L/T^{2}$), the dimensions of force are\\ \vspace{-0.3cm}
+$${\rm Force}=ML/T^{2}$$
+\vspace{-0.4cm}\\力的量纲是质量$\times$长度/时间平方，即$ML/T^{2}$。
+\end{exam}
+} \rightline{\hyperlink{sec:1}{\beamerreturnbutton{back}} }
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection[Electromagnetic Spectrum 电磁频谱]{EM Spectrum}\label{subsec:1-4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Electromagnetic Spectrum}}
+
+The types of electromagnetic radiation are broadly classified into
+the following classes:
+\begin{itemize}
+    \item Radio waves
+    \item Microwave radiation
+    \item Infrared radiation (IR)
+    \item Visible radiation
+    \item Ultraviolet radiation (UV)
+    \item X-ray radiation
+    \item Gamma radiation
+\end{itemize}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Electromagnetic Spectrum}} \transblindsvertical % 竖直百叶窗效果
+\vspace{-0.5cm}
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=11cm]{ch1/em_spectrum} % 图片名不能以大些字母开头
+  \end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{\textsc{Electromagnetic Spectrum}}\transwipe % 涂抹效果
+\vspace{-0.5cm}
+
+{\scriptsize
+\begin{table}[!h]
+\rowcolors{1}{blue!20}{blue!10} \arrayrulecolor{blue!5}
+\tabcolsep 2pt % 列间距
+\renewcommand\arraystretch{1.1} % 行间距
+
+\caption{ITU frequency band}\label{tab:frequency_band}
+\vspace*{-15pt}
+\begin{center}
+%    \setlength{\extrarowheight}{2ex} % 每行高度
+    \setlength{\arrayrulewidth}{1.3pt}
+    \begin{tabular}{c|c|c|p{4.5cm}<{\centering} }
+        \arrayrulecolor{black}\hline
+        \rowcolor{blue!50}  Band name & Frequency & Wavelength in air & Example uses  \\   \hline
+        ELF & 3-30Hz & 100,000km-10,000km & Submarine communication  \\
+        SLF & 30-300Hz & 10,000km-1000km & Submarine communication  \\
+        ULF & 300-3000Hz & 1000km-100km & Communication within mines  \\
+        VLF & 3-30Hz & 100km-10km & Navigation, Geophysics  \\
+        LF & 30-300kHz & 10km-1km & Navigation, Amateur radio, RFID, AM long-wave broadcasting  \\
+        MF & 300-3000kHz & 1000m-100m & AM medium-wave broadcasts \\
+        HF & 3-30MHz & 100m-10m & Shortwave broadcasts, RFID, Over-the-horizon radar \\
+        VHF & 30-300MHz & 10m-1m & FM,TV,weather radio, Maritime Mobile communications  \\
+        UHF & 300-3000MHz & 1m-100mm & TV, mobile phones, wireless LAN, Bluetooth, GPS, microwave ovens \\
+        SHF & 3-30GHz & 100mm-10mm & radio astronomy, radars, satellites  \\
+        EHF & 30-300GHz & 10mm-1mm & remote sensing, energy weapon  \\
+        THF or THz & 300-3000GHz & 1mm-100$\mu$m & Terahertz imaging,Terahertz computing/communications  \\
+        \hline
+       \end{tabular}
+\end{center}
+\end{table}
+}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}%[shrink] % shrink有效时hyperlink失效
+\frametitle{\textsc{Radio Frequency Band}} \transsplithorizontalout% 水平撕开(向外)
+\vspace{-0.55cm}
+\begin{multicols}{2}
+{\footnotesize
+\begin{table}[!h]
+\rowcolors{1}{blue!20}{blue!10} \arrayrulecolor{blue!5}
+\tabcolsep 4pt % 列间距
+\renewcommand\arraystretch{1.1} % 行间距
+\caption{IEEE bands}\label{tab:IEEE_band} \vspace*{-5.8pt}
+  \begin{center}
+    \setlength{\arrayrulewidth}{1.3pt}
+    \resizebox{4.7cm}{!}{
+    \begin{tabular}{c|c}%{\temptablewidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
+        \arrayrulecolor{black}\hline
+        \rowcolor{blue!50} Band & Frequency range \\   \hline
+        HF band & 3-30MHz \\
+        VHF band & 30-300MHz\\
+        UHF band & 300-3000MHz\\
+        L band & 1-2GHz \\
+        S band & 2-4GHz \\
+        C band & 4-8GHz \\
+        X band & 8-12GHz \\
+        K{\tiny u} band & 12-18GHz \\
+        K band & 18-27GHz \\
+        K{\tiny a} band & 27-40GHz \\
+        V band & 40-75GHz \\
+        W band & 75-110GHz \\
+        mm band & 110-300GHz \\
+        \hline
+    \end{tabular} }
+  \end{center}
+\end{table}
+
+\begin{table}[!h]
+\rowcolors{1}{blue!20}{blue!10} \arrayrulecolor{blue!5}
+\tabcolsep 4pt % 列间距
+\renewcommand\arraystretch{1.1} % 行间距
+\caption{EU, NATO, US ECM}\label{tab:EU_band} \vspace*{-7pt}
+  \begin{center}
+    \setlength{\arrayrulewidth}{1.3pt}
+    \resizebox{4.3cm}{!}{
+    \begin{tabular}{c|c}%{\temptablewidth}{@{\extracolsep{\fill}}|c|c|c|c|c|}
+        \arrayrulecolor{black}\hline
+        \rowcolor{blue!50} Band & Frequency range  \\   \hline
+        A band & 0-0.25GHz \\
+        B band & 0.25-0.5GHz\\
+        C band & 0.5-1.0GHz\\
+        D band & 1-2GHz \\
+        E band & 2-3GHz \\
+        F band & 3-4GHz \\
+        G band & 4-6GHz \\
+        H band & 6-8GHz \\
+        I band & 8-10GHz \\
+        J band & 10-20GHz \\
+        K band & 20-40GHz \\
+        L band & 40-60GHz \\
+        M band & 60-100GHz \\
+        \hline
+    \end{tabular} }
+  \end{center}
+\end{table}
+}
+\vspace{-0.5cm}\rightline{\hyperlink{sec:1}{\beamerreturnbutton{back}}}
+\end{multicols}
+
+%\vspace{-0.5cm}\rightline{\hyperlink{sec:1}{\beamerreturnbutton{back}}}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
