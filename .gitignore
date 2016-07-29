@@ -3,3 +3,5 @@
 .log
 .out
 .synctext
+/毕业论文/*.doc
+/毕业论文/*.docx
